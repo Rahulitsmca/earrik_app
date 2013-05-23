@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="c">
+            <a href="app_home.htm" data-icon="delete" id="back" data-rel="back">cancel</a>
+            <h1>
+                Register Page</h1>
+            <a href="app_home.htm" data-icon="check">Save</a>
+        </div>
+        <div data-role="content" data-theme="c">
+            <fieldset data-role="fieldcontain">
+                <label for="username">
+                    Username:</label>
+                <input type="text" name="username" id="username" required>
+            </fieldset>
+            <fieldset data-role="fieldcontain">
+                <label for="password">
+                    Password:</label>
+                <input type="password" name="password" id="password">
+            </fieldset>
+            <fieldset data-role="fieldcontain">
+                <label for="password2">
+                    Confirm Password:</label>
+                <input type="password" name="password2" id="password2">
+            </fieldset>
+            <fieldset data-role="fieldcontain">
+                <label for="email">
+                    Email:</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <fieldset data-role="fieldcontain">
+                <label for="hometown">
+                    Home Town:</label>
+                <input type="text" name="hometown" id="hometown">
+            </fieldset>
+        </div>
+        <div data-role="footer" data-theme="c">
+            <h1>
+                <br />
+            </h1>
+        </div>
+    </div>
+</body>
+</html>
